@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_game"
+            android:title="Create game"/>
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home page"/>
+        <item
+            android:id="@+id/nav_statistics"
+            android:title="View own stats"/>
+        <item
+            android:id="@+id/nav_view_friends"
+            android:title="Manage friends"/>
+        <item
+            android:id="@+id/nav_tournament"
+            android:title="Tournaments"/>
+        <item
+            android:id="@+id/nav_view_wall"
+            android:title="View wall"/>
+        <item
+            android:id="@+id/nav_find_alley"
+            android:title="Find local alley"/>
+    </group>
+
+</menu>
